@@ -1,0 +1,160 @@
+/* Esconde todos os elementos inicialmente */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Caprasimo&display=swap');
+.conteudo {
+    background-color: black;
+}
+.conteiner {
+  display: none;
+  
+}
+
+.texto h3 {
+    
+    font-size: 20px;
+    margin: 12px;
+ 
+}
+
+.texto p {
+    margin: 12px;
+    font-family: "Cabin", serif;
+    font-weight: 900;
+    color: #858585;
+   
+  }
+.active-link {
+    color: #949494; /* Alterado para um laranja mais destacado */
+    font-weight: bold;
+}
+
+
+a {
+  
+  color: white;
+  text-decoration: none;
+  margin-right: 5px;
+ 
+}
+h1 {
+    background-color: #4F4D4D;
+    margin: 4px 0 -12px 0;
+    text-align: center;
+    font-size: 25px;
+}
+#carrinho {
+    width: 17px;
+    top: -18px;
+    left: 1330px;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#carrinho:hover {
+    transform: scale(1.2); /* 20% maior */
+}
+
+#plebeusSmash1, #plebeusSmash3, #plebeusSmash5, #plebeus1, #plebeus3, #reisRainhas1, #reisRainhas3, #reisRainhas5, #reisRainhas7, #nobresConvidados1, #nobresConvidados3, 
+#escudeiros1, #escudeiros3, #escudeiros5, #escudeiros7, #milkShake1, #milkShake3, #sobremesas1, #sobremesas3, #cerveja1, #cerveja3, #cerveja5, #cerveja7, #cerveja9, 
+#bebida1, #bebida3, #bebida5, #bebida7, #bebida9, #bebida11, #bebida13, #bebida15, #bebida17{
+    width: 520px; /* Define a largura da div */
+    height: 210px; /* Define a altura da div */
+    border: 2px solid rgb(242, 242, 242); /* Define a borda */
+    padding: 0 0 0 10px;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+    
+    
+}
+
+#plebeusSmash2, #plebeusSmash4, #plebeus2, #plebeus4, #reisRainhas2, #reisRainhas4, #reisRainhas6, #nobresConvidados2, #escudeiros2, #escudeiros4, #escudeiros6, 
+#milkShake2, #milkShake4, #sobremesas2, #cerveja2, #cerveja4, #cerveja6, #cerveja8, #bebida2, #bebida4, #bebida6, #bebida8, #bebida10, #bebida12, #bebida14, #bebida16{
+    width: 520px; /* Define a largura da div */
+    height: 210px; /* Define a altura da div */
+    border: 2px solid rgb(242, 242, 242); /* Define a borda */
+    padding: 0 0 0 10px;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 40px;
+    margin-left: -20px;
+
+}
+
+
+#secao1, #secao2, #secao3, #secao4, #secao5, #secao6, #secao7, #secao8, #secao9 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.img-direita{
+    padding: 15px 0 0 0;
+    margin-left: 20px;
+    width: 200px;
+    height: 149px;
+
+}
+.img-esquerda{
+    padding: 15px 0 0 0;
+    margin-left: 20px;
+    width: 200px;
+    height: 149px;
+
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.olho {
+    margin-top: 10px;
+    margin-left: 210px;
+    width: 20px;
+}
+.texto {
+    width: 250px;
+}
+
+
+
+.cabeca {
+    height: 300px;
+    width: 100%;
+    
+    
+    background-image: url(imgs/cabeçalho.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: black;
+    background-size: cover;
+    height: 35px;
+    
+}
+li {
+    padding: 5px 2px;
+    color: white;
+    font-family: "Caprasimo", serif;
+    font-size: 14px;
+    margin: 0 12px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+   
+}
+li:hover {
+    transform: scale(1.05); /* 20% maior */
+}
+footer {
+    background-color: black;
+    color:white ;
+    text-align: center;
+}
